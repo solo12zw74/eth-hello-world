@@ -1,4 +1,5 @@
-pragma solidity >=0.4.22 <0.7.0;
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.5.16;
 
 library ConvertLib{
 	function convert(uint amount,uint conversionRate) public pure returns (uint convertedAmount)
